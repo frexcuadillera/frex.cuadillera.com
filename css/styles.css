@@ -28,5 +28,28 @@ body {
 
 	margin: 0 auto;
 	padding: 1rem;
-	
+
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.header {
+	text-align: center;
+}
+
+.links > ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+.links > ul > li {
+	padding: 1rem;
 }
