@@ -53,19 +53,59 @@ a:hover {
 	padding: 1rem;
 }
 
+@media (max-width: 1366px) {
+	#profile {
+		width: 50%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#about-me {
+		width: 50%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#about-me-text {
+		margin-top: 10%;
+		padding: 10%;
+		height: auto;
+		margin-bottom: 3%;
+	}
+}
+
 @media (max-width: 1000px) {
 	#wrapper {
 		flex-direction: column;
 		align-items: center;
 	}
-}
 
-#profile {
-	width: 50%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	#profile {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#about-me {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#about-me-text {
+		margin-top: 5%;
+		padding: 1%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 #profile-picture {
@@ -99,21 +139,6 @@ a:hover {
 	flex-direction: row;
 	width: 50%;
 	gap: 5%;
-}
-
-#about-me {
-	width: 50%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-#about-me-text {
-	margin-top: 10%;
-	padding: 10%;
-	height: auto;
-	margin-bottom: 3%;
 }
 
 #about-me-cv {
